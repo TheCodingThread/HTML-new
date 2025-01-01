@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <form action="/submit.php" method="post">
+        <div>
+        <label for="username">Enter the username</label>
+        <input type="text" name="username" id="username">
+    </div>
+
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+
+        <div>
+        <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+        <label for="subscribe">Do you want to subscribe?</label>
+    </div>
+
+    <div>
+        <label for="comment">Enter your comment</label>
+        <br>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        
+        <div>
+            <label for="fruits">Enter your fruit</label>
+            <select name="fruits" id="fruits">
+                <option value="apple">apple</option>
+                <option value="mango">mango</option>
+                <option value="banana">banana</option>
+            </select>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
